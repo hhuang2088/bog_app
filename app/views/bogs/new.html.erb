@@ -1,0 +1,12 @@
+<form action="/bogs" method="post">
+	<input type="text" name="animal[name]">
+	<textarea name="animal[description]"></textarea>
+	<%= token_tag form_authenticity_token %>
+	<button> Save Animal </button>
+</form>
+
+</br>
+
+<form action="/bogs" method="get">
+	<button> Home Page </button>
+</form>

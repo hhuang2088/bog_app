@@ -1,0 +1,12 @@
+<% @animals.each do |animal| %>
+
+	<div>
+		Name: <%= animal[:name] %>
+		Description: <%= animal[:description] %>
+	</div>
+
+<% end %>
+
+<form action="/bogs" method="get">
+	<button> Home Page </button>
+</form>
